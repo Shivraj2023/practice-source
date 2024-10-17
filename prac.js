@@ -424,3 +424,8 @@ console.log(myarray); */
         ]
         peoples.sort ( (a,b)=> a.age-b.age);
         console.log(peoples);
+         
+           function sum (a,r) {
+            return a+r;
+           }
+           console.log(sum(2,5));
