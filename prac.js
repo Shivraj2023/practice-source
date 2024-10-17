@@ -473,20 +473,6 @@ console.log(myarray); */
                       console.log(i);
                     } */  
 
-                     const user = {
-                      name : "raj",
-                      age : 22
-                     }
+                     
                     
-                     const { name , age } = user;
-                     console.log(name);
-                     console.log(age);
-                       let key = "fruit"
-                        
-                       let obj1 = {
-                          [key] : "aapple"
-                        }
-                        console.log(obj1)
-                    
-
-                        
+                     
