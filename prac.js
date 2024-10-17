@@ -414,7 +414,7 @@ console.log(myarray); */
        car.startengine();
        console.log(car.hasOwnProperty("brand")); */
         
-       let peoples = [
+       /* let peoples = [
           { name:"shiv",
             age :28
           },
@@ -423,9 +423,70 @@ console.log(myarray); */
           }
         ]
         peoples.sort ( (a,b)=> a.age-b.age);
-        console.log(peoples);
+        console.log(peoples); */
+
+        let peoples = {
+          name:"shiv",
+            age :28 ,
+            towm : "tornagallu"
+          
+        }
+         /* let keys = Object.keys(peoples);
+         let values = Object.values(peoples);
+         console.log(keys);
+         console.log(values); */
+          /* let entries = Object.entries(peoples);
+          console.log(entries);
+          let entries1=entries.flat();
+          console.log(entries1);
+          console.log(entries);
          
-           function sum (a,r) {
-            return a+r;
-           }
-           console.log(sum(2,9));
+           console.log(entries===entries1); */
+            
+            /* const obj ={ a:1, b:2};  */
+             /*  for (const key in obj) {
+                console.log (key ,obj[key]);
+              } */
+               /* for ( const key of Object.keys(obj)) {
+                console.log (key,obj[key]);
+               }   */
+              /*  for ( const key of Object.values(obj)) {
+                console.log (key);
+               } */
+              /*  let keys=Object.keys(obj);
+               let valurs=Object.values(obj);
+               console.log (keys);
+              
+               console.log (valurs); */
+
+/* 
+               for ( const key in Object.values(obj)) {
+                console.log (obj[key]);
+               } */
+                 /* const myarr =[ 1,2,3,4,5,6,9];
+                 for (const value in myarr) {
+                  console.log(value);
+                 } */
+                  /* let values =Object.values(obj);
+                  /* console.log(values) */
+                    /* for ( i of values)  {
+                      console.log(i);
+                    } */  
+
+                     const user = {
+                      name : "raj",
+                      age : 22
+                     }
+                    
+                     const { name , age } = user;
+                     console.log(name);
+                     console.log(age);
+                       let key = "fruit"
+                        
+                       let obj1 = {
+                          [key] : "aapple"
+                        }
+                        console.log(obj1)
+                    
+
+                        
