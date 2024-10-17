@@ -428,4 +428,4 @@ console.log(myarray); */
            function sum (a,r) {
             return a+r;
            }
-           console.log(sum(2,5));
+           console.log(sum(2,6));
